@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--系统默认效果CheckBox-->
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <!--自定义样式CheckBox-->
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/bg_checkbox_one"
+        android:padding="10dp" />
+
+    <!--自定义样式+扩大点击区域CheckBox-->
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableLeft="@drawable/bg_checkbox_one"
+        android:drawableStart="@drawable/bg_checkbox_one"
+        android:padding="10dp" />
+
+    <!--错误使用方式CheckBox-->
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_checkbox_one"
+        android:button="@null"
+        android:padding="10dp" />
+
+</LinearLayout>
