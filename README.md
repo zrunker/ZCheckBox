@@ -1,6 +1,5 @@
 # ZCheckBox
 Android中CheckBox自定义样式和扩大点击区域的实现。使用工具Android Studio
->作者：邹峰立，微博：zrunker，邮箱：zrunker@yahoo.com，微信公众号：书客创作，个人平台：[www.ibooker.cc](http://www.ibooker.cc)。
 
 >本文选自[书客创作](http://www.ibooker.cc)平台第18篇文章。[阅读原文](http://www.ibooker.cc/article/18/detail) 。
 
